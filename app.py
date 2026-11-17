@@ -19,7 +19,7 @@ st.set_page_config(
 # CUSTOM CSS
 # ==========================================
 
-st.markdown("""
+st.markdown(
 <style>
 
 .stApp {
@@ -48,7 +48,7 @@ st.markdown("""
 }
 
 </style>
-""", unsafe_allow_html=True)
+unsafe_allow_html=True)
 
 # ==========================================
 # LOAD MODEL
