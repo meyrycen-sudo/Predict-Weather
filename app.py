@@ -329,22 +329,6 @@ elif page == "About the Model":
 
     st.markdown("---")
 
-    st.subheader("Dataset Features")
-
-    feature_df = pd.DataFrame({
-        "Feature": features,
-        "Median Threshold": [
-            thresholds[f] for f in features
-        ],
-        "Input Type": ["YES / NO"] * len(features)
-    })
-
-    st.dataframe(
-        feature_df,
-        use_container_width=True,
-        hide_index=True
-    )
-
     st.subheader("Prediction Classes")
 
     for weather, info in weather_info.items():
