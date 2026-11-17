@@ -341,19 +341,6 @@ elif page == "About the Model":
 
     st.markdown("---")
 
-    st.subheader("Machine Learning Algorithm")
-
-    st.write(
-        """
-        Random Forest is an ensemble learning algorithm
-        that combines multiple decision trees to classify
-        input data.
-
-        The model uses four binary features and predicts
-        one of five weather categories.
-        """
-    )
-
     st.subheader("Project Dataset")
 
     st.markdown(
