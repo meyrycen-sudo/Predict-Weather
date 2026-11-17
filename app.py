@@ -23,7 +23,7 @@ st.markdown("""
 <style>
 
 .stApp {
-    background-color: #F4F7FB;
+    background-color: #81A1BD;
 }
 
 .main-title {
@@ -114,7 +114,6 @@ st.sidebar.markdown("---")
 
 st.sidebar.info(
     "Machine Learning Weather Prediction "
-    "using Random Forest Classification."
 )
 
 # ==========================================
@@ -129,8 +128,7 @@ if page == "Home":
     )
 
     st.markdown(
-        '<p class="subtitle">Predict weather conditions using '
-        'simple YES/NO questions and Machine Learning.</p>',
+        '<p class="subtitle">Predict weather conditions.</p>',
         unsafe_allow_html=True
     )
 
